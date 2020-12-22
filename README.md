@@ -1,10 +1,12 @@
 # vsatak
 This is an API developed in Python with Flask and connection to Mysql to handle some tasks.
 
-_Tested on Ubuntu 18.04
+_Tested on Ubuntu 18.04_
 
 **Prerequisites**
 
+
+#
 **Python3.6:**
 
 Ubuntu 16.10 and 17.04
@@ -23,7 +25,7 @@ Ubuntu 17.10, 18.04 (Bionic) and onwards
   _Ubuntu 17.10 and 18.04 already come with Python 3.6 as default. Just run python3 to invoke it._
 
 
-
+#
 **Pip3:**
 
 _The first procedure you followed is correct._
@@ -48,20 +50,20 @@ _For checking version:_
 `pip3 --version`
 
 
-
-**MySQL:
+#
+**MySQL:**
 
 `pip3 install mysql-connector-python`
 
 
-
-**Flask:
+#
+**Flask:**
 
 `pip3 install flask`
 
 
-
-**Creating the API:
+#
+**Creating the API:**
 
 `mkdir ~/projects/api`
 `cd ~/projects/api`
@@ -69,14 +71,14 @@ _For checking version:_
 _Copy the file api.py to the folder api. (~/projects/api/api.py)_
 
 
-
-**Running the server:
+#
+**Running the server:**
 
 `python3 api.py`
 
 
 
-
+#
 **References:
 
 https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
