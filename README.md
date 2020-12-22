@@ -13,8 +13,8 @@ Ubuntu 16.10 and 17.04
 
   _If you are using Ubuntu 16.10 or 17.04, then Python 3.6 is in the universe repository, so you can just run:_
 
-    `sudo apt-get update
-    sudo apt-get install python3.6`
+    sudo apt-get update
+    sudo apt-get install python3.6
 
   _After installation for Ubuntu 14.04, 16.04, 16.10 and 17.04_
 
@@ -65,10 +65,10 @@ _For checking version:_
 #
 **Creating the API:**
 
-`mkdir ~/projects/api`
-`cd ~/projects/api`
+`sudo mkdir ~/projects/api
+sudo cd ~/projects/api`
 
-_Copy the file api.py to the folder api. (~/projects/api/api.py)_
+Copy the file api.py to the folder api (~/projects/api/api.py).
 
 
 #
@@ -91,15 +91,3 @@ https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get
 
 
 
-
-
-
-
-
-
-
-
-
-
- 
- 
