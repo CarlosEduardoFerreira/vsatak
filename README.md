@@ -2,10 +2,11 @@
 This is an API developed in Python with Flask and connection to Mysql to handle some tasks.
 
 
-Prerequisites
+<b>Prerequisites</b>
 
 
-Python3.6:
+
+<u>Python3.6:</u>
 
 -Ubuntu 16.10 and 17.04
 
@@ -21,6 +22,7 @@ Python3.6:
 -Ubuntu 17.10, 18.04 (Bionic) and onwards
 
   Ubuntu 17.10 and 18.04 already come with Python 3.6 as default. Just run python3 to invoke it.
+
 
 
 Pip3:
@@ -47,14 +49,17 @@ For checking version :
 pip3 --version 
 
 
+
 MySQL:
 
 pip3 install mysql-connector-python
 
 
+
 Flask:
 
 pip3 install flask
+
 
 
 Creating the API:
@@ -65,19 +70,18 @@ cd ~/projects/api
 Copy the file api.py to the folder api. (~/projects/api/api.py)
 
 
-Run the server:
+
+Running the server:
 
 python3 api.py
 
 
 
 
-
-
-
-
 References:
+
 https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
+
 https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get
 
 
