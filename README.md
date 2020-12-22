@@ -53,7 +53,58 @@ _For checking version:_
 #
 **MySQL:**
 
+Install MySQL:
+
+
+`sudo apt-get --purge remove mysql-server mysql-common mysql-client.`
+
+`sudo apt update && sudo apt dist-upgrade && sudo apt autoremove.`
+ 
+`sudo apt-get install -y mysql-server mysql-client.`
+
+
+Setting user password:
+
+
+`mysql -u root`
+
+`flush privileges;`
+
+`SET PASSWORD FOR 'root'@'localhost' = PASSWORD('mg72ax');`
+`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mg72ax';`
+
+`exit`
+
+
+Setting up the MySQL:
+
+`sudo service mysql restart`
+
+
+`mysql -u root`
+
+
+`create schema vsatak;
+use vsatak;
+CREATE TABLE markers (
+  uid varchar(6) NOT NULL,
+  latitude decimal(18,15) NOT NULL,
+  longitude decimal(18,15) NOT NULL,
+  PRIMARY KEY (uid)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;`
+
+
+`exit`
+
+
+Installing mysql.connector:
+
 `pip3 install mysql-connector-python`
+
+
+_If you like UI for Database:_
+
+`sudo apt install mysql-workbench`
 
 
 #
