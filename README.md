@@ -3,47 +3,47 @@ This is an API developed in Python with Flask and connection to Mysql to handle 
 
 _Tested on Ubuntu 18.04
 
-**Prerequisites
+**Prerequisites**
 
-**Python3.6:
+**Python3.6:**
 
 Ubuntu 16.10 and 17.04
 
-  _If you are using Ubuntu 16.10 or 17.04, then Python 3.6 is in the universe repository, so you can just run:
+  _If you are using Ubuntu 16.10 or 17.04, then Python 3.6 is in the universe repository, so you can just run:_
 
-    `sudo apt-get update`
-    `sudo apt-get install python3.6`
+    `sudo apt-get update
+    sudo apt-get install python3.6`
 
-  _After installation for Ubuntu 14.04, 16.04, 16.10 and 17.04
+  _After installation for Ubuntu 14.04, 16.04, 16.10 and 17.04_
 
-  _To invoke the Python 3.6 interpreter, run python3.6.
+  _To invoke the Python 3.6 interpreter, run python3.6._
  
 Ubuntu 17.10, 18.04 (Bionic) and onwards
 
-  _Ubuntu 17.10 and 18.04 already come with Python 3.6 as default. Just run python3 to invoke it.
+  _Ubuntu 17.10 and 18.04 already come with Python 3.6 as default. Just run python3 to invoke it._
 
 
 
-**Pip3:
+**Pip3:**
 
-_The first procedure you followed is correct
+_The first procedure you followed is correct._
 
 `sudo apt-get -y install python3-pip`
 
-_But before installing try to update using command
+_But before installing try to update using command._
 
 `sudo apt-get update`
 
-_If first did not work then you can also do this using curl
+_If first did not work then you can also do this using curl_
 
-`curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"`
-`python3 get-pip.py --user`
+`curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+python3 get-pip.py --user`
 
-_Then to verify installation try
+_Then to verify installation try_
 
 `pip3 --help`
 
-_For checking version :
+_For checking version:_
 
 `pip3 --version`
 
@@ -66,7 +66,7 @@ _For checking version :
 `mkdir ~/projects/api`
 `cd ~/projects/api`
 
-_Copy the file api.py to the folder api. (~/projects/api/api.py)
+_Copy the file api.py to the folder api. (~/projects/api/api.py)_
 
 
 
