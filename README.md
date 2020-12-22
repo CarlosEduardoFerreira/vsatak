@@ -128,6 +128,11 @@ Copy the file api.py to the folder api (~/projects/api/api.py).
 `python3 api.py`
 
 
+**Checking if everything is fine:**
+
+http://127.0.0.1:5000/check_connection
+
+
 
 #
 **References:
