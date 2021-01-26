@@ -66,7 +66,7 @@ Install MySQL:
 Setting user password:
 
 
-`mysql -u root`
+`sudo mysql -u root`
 
 `flush privileges;`
 
@@ -81,7 +81,7 @@ Setting up the MySQL:
 `sudo service mysql restart`
 
 
-`mysql -u root`
+`mysql -u root -p`
 
 
 `create schema vsatak;
